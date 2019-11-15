@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel = "stylesheet"
+type = "text/css" 
+href = "./styles/styles.css" > 
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pinturas del Sur</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet"> </head>
+<body>
+  
+    <nav class='firstbar'>
+        <ul class="main-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#about-us">Quienes somos</a></li>
+            <li><a href="#location">Donde estamos</a></li>
+            <li><a href="#contact-us">Contacto</a></li>
+            <li><a href="./gallery.html">Nuestros trabajos</a></li>
+
+
+          </ul> 
+    </nav>
+   
+    <!--end of nav bar-->
+    <div id="bannerimage"></div>
+    <!--effect bar-->
+    <div class="box-wrap">
+      <div class="box animate fadeInLeft one">
+  pinturas intumecentes   </div>
+  
+      <div class="box animate fadeInLeft two">
+  lisos    </div>
+  
+      <div class="box animate fadeInLeft three">
+  estucos    </div>
+    
+      <div class="box animate fadeInLeft four">
+  papel pintado     </div>
+      <div class="box animate fadeInLeft five">
+  fachadas   </div>
+      <div class="box animate fadeInLeft six">
+  alisados gotele    </div>
+    <div class="box animate fadeInLeft seven">
+  lacados y barnices    </div>
+  </div>
+  <!--end of effect bar-->
+  <article id="about-us">
+    <h1>Nuestra mision</h1>
+   <p> Ofrecer un servicio de calidad, autentico, donde se valora al cliente.</p>
+    <h2>Desde 1968</h2>
+    <p>Nuestra trayectoria profesional empieza en 1968 en la provincia de Granada,
+     pasando a formar parte de ella Ismael Martin Tecnico superior en Realizacion y Planes de Obra, en la especialidad de
+     pintura, decoracion, barnices y lacados.  </p>
+    
+    <h2>Nuestra empresa</h2>
+    <p>En pinturas Emilio Martin estamos a la vanguardia en todo tipo de aplicaciones de primera calidad.
+     Buscando  la innovacion asegurandonos de que nuestros trabajos sean respetables con el medio ambiente, 
+    cumpliente con  todos los protocolos de seguridad para proteger al trabajador y al cliente en cada de uno nuestros trabajos.</p>
+    
+   <h2> Nuestros servicios</h2>
+    <p>Aplicacion de color y lisos. Todo tipo de decoraciones, estucos, espondajos y esmaltes. Alisados de gotele. Papeles pintados. Pinturas de fachadas.
+    Pinturas impermeabilizantes. Pinturas intumescentes o ignifugas. Señalizacion horizontal.</p>
+  </article>
+  <div style="width:25%; display:inline-block;"></div>
+
+<!--Localizacion -->
+  <div id="location" class="card">
+      <div class="header">
+<br>      
+<div class="row">
+    <div class="avatar-container">
+      <div class="maps">
+          <h2>Mapa:</h2>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.649325414377!2d-3.640983084380926!3d37.208557852304935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fdb76812c6c5%3A0x565825e7485fda77!2sCalle%20Madrid%2C%2030%2C%2018200%20Maracena%2C%20Granada!5e0!3m2!1ses!2ses!4v1573124530846!5m2!1ses!2ses" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+
+      </div>
+    </div>
+    <div class="details-container">
+      <div class="content">
+        <h3>Direccion:</h3>
+        <address class="vcard">
+            <span class="adr">
+                <span class="fn org">Pinturas Emilio Martin</span>
+
+              <span class="street-address">Calle Madrid 30</span>
+              <span class="locality">Maracena</span>,  
+              <span class="region">Granada</span>
+              <span class="postal-code">18200</span>
+              <span class="country-name">España</span>
+            </span
+            ></address>
+            <h3>Telefono:</h3>
+            <span>    677 13 03 66</span>
+      </div>
+    </div>
+  </div></div>
+  <!--Fin de localizacion-->
+  <header class="c-banner"></header>
+  <div id="contact-us" class="c-container">
+    <div class="c-contact">
+      <h1>Contactanos.</h1>
+      <p>Tienes alguna pregunta?</p>
+      <p>Si necesitas concertar una cita <br><a href="tel: 677 13 03 66" >llamanos</a>:  677 13 03 66 .</p>
+    </div>
+    <form class="c-form" id="form" name='formulario-contacto'  method="POST" target="_blank" data-netlify="true">
+      <label for="email"><span class="c-form-label">Email <abbr title="Required">*</abbr></span>
+        <input class="c-form-input" id="form-email" type="email" name="email" required="required" pattern=".{3,}"/><span class="u-alert" id="form-email-error">Mete un formato de email valido.</span>
+      </label>
+      <label for="name"><span class="c-form-label">Nombre</span>
+        <input class="c-form-input" id="form-name" type="text" name="name" pattern="^[A-Za-z ,.'-]+$"/><span class="u-alert" id="form-name-error">Por favor mete un nombre valido, solo letras.</span>
+      </label>
+      <label for="message"><span class="c-form-label">Mensaje <abbr title="Required">*</abbr></span>
+        <textarea class="c-form-input" id="form-message" minlength="10" maxlength="200" rows="4" name="message" required="required"></textarea><span class="c-form-input__length"><span id="form-message-length">0</span>/200</span><span class="u-alert" id="form-message-error">Por favor mete al menos 10 caracteres y menos de 200.</span>
+      </label>
+      
+      <input class="c-form-submit" id="form-submit" type="submit" value="Enviar" name="submit"/><span class="u-alert" id="form-submit-error">Por favor corrige la informacion e intentalo de nuevo.</span>
+    </form>
+    <div class="c-thankyou u-hide" id="form-thankyou">
+      <h1>
+        gracias!</h1>
+      <p>
+        Te contactaremos lo mas pronto posible.</p>
+    </div>
+    
+  </div>
+  
+        </div>
+    </div>
+  </div>
+  <script src="./scripts/interaction.js"></script>
+</body>
+
+</html>
